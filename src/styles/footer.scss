@@ -1,0 +1,17 @@
+// Footer.scss
+.footer {
+  background: $main;
+  color: $secondary;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  height: $footer-height;
+  @include align(center);
+
+  &__reserved {
+    margin-bottom: 0;
+  }
+}

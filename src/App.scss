@@ -1,0 +1,13 @@
+// shared styles
+@import "./styles/variables.scss";
+@import "./styles/mixins.scss";
+@import "./styles/shared.scss";
+
+// component styles
+@import "./styles/navigation.scss";
+@import "./styles/footer.scss";
+@import "./styles/login.scss";
+@import "./styles/register.scss";
+
+// page styles
+@import "./styles/home.scss";
